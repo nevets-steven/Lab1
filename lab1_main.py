@@ -32,14 +32,14 @@ print("Exercise 1.6 Dividing Integers\n")
 x = input("Enter a number: ")
 y = input("Enter another number: ")
 divided = int(x) / int(y)
-print(f"The result is {int(divided)}")
+print(f"The result is {divided}")
 print(divider)
 
 print("Exercise 1.7: Entering Booleans\n")
 bool_val = input("Enter a boolean: ")
-if (bool_val == "True"):
+if (bool_val == "True" or 'true' or 't'):
     opposite = False
-elif (bool_val == "False"):
+elif (bool_val == "False" or 'false' or 'f'):
     opposite = True
 print(f"You entered {bool_val}")
 print(f'The opposite of what you entered is: {opposite}')
